@@ -1,0 +1,161 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 50%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header {
+    padding: .2rem;
+    background: rgb(0,35,255);
+    background: linear-gradient(0deg, rgba(0,35,255,1) 0%, rgba(105,176,255,1) 50%, rgba(0,35,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 1.0rem;
+}
+table.heada{
+    color: #FFD700;
+    margin: 2.0rem auto;
+}
+.main_logo{
+    height: 15.0rem;
+}
+th.okayjannu{
+    font-size: 9.0rem;
+    text-decoration: underline rgb(92, 94, 255);
+    text-align: center;
+}
+th.okaybaby{
+    font-size: 7.0rem;
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 1.0rem; 
+}
+.navbar a{
+    float: left;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding: 1.4rem 1.6rem;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 1.6rem;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.4rem 1.6rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover, .dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color:#FFD700;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 1.0rem;
+    min-width: 16.0rem;
+    box-shadow: .0rem .8rem 1.6rem .0rem rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 1.0rem;
+}
+.dropdown-content a:hover {
+    background-color: gold;
+    color: navy;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.AHouseOfCompleteAirSolution{
+    border-radius: 1.0rem;
+    width: 100%;
+    height: auto;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.head{
+    text-align: center;
+    background: rgb(255,200,0);
+    background: linear-gradient(90deg, rgba(255,200,0,1) 0%, rgba(255,183,0,1) 25%, rgba(255,183,0,1) 75%, rgba(255,200,0,1) 100%);
+    border-radius: 1.0rem;
+    overflow: hidden;
+}
+#image{
+    height: auto;
+    width: 40.0rem;
+}
+.tabletext{
+    text-align: left;
+}
+.hole{
+    background-color: white;
+    border: .5rem solid #FFD700;
+    border-radius: 1.0rem;
+    padding: 1.0rem;
+    margin: 5% 10% 5% 10%;
+}
+.hole_td{
+    padding: 1.0rem;
+    border-right: .2rem solid #FFD700;
+}
+.details,
+.details_tr,
+.details_th,
+.details_td{
+    border: .2rem solid #FFD700;
+    border-collapse: collapse;
+    padding: .5rem;
+    margin: auto;
+}
+.details_td{
+    text-align: center;
+}
+.details_th{
+    padding: 1.6rem;
+}
+.tabletext{
+    padding-left: 1rem;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
+@media screen and (max-width: 1177px){
+    html{
+        font-size: 56.25%;
+    }
+}
+@media screen and (max-width: 1053px) {
+    html{
+        font-size: 50%;
+    }
+}
