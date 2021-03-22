@@ -20,6 +20,7 @@ header {
 table.heada{
     color: #FFD700;
     margin: 2.0rem auto;
+    
 }
 .main_logo{
     height: 15.0rem;
@@ -123,6 +124,7 @@ h3{
     border-radius: 1.0rem;
     padding: 1.0rem;
     margin: 5% 10% 5% 10%;
+    transition: 1s;
 }
 .hole_td{
     padding: 1.0rem;
